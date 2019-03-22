@@ -43,5 +43,12 @@ class MissingNumTest {
 		int x = find.search(a);
 		assertEquals(6, x);
 	}	
+	
+	@Test
+	void test7() {
+		int[] a = {0, 0, 0};
+		int x = find.search(a);
+		assertEquals(1, x);
+	}	
 
 }
